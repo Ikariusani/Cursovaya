@@ -1,0 +1,25 @@
+header{
+    background-color: royalblue;
+    text-align: center;
+    height: 100px;
+    padding-top: 15px;
+}
+.header__menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+}
+.header__menu a{
+    font-size: 12px;
+    margin: 5px;
+    text-decoration: none;color: rgba(0, 0, 255, 0.726);
+    
+}
+.header__logo{
+    display: flex;
+}
+.header__logo img{
+    width: 300px;
+    filter: drop-shadow(16px 16px 20px rgb(216, 202, 14));
+}
