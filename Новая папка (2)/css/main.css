@@ -1,0 +1,11 @@
+main{
+  display: flex;
+  justify-content: space-between;
+}
+.main__info a{
+  text-decoration: none;color: rgba(0, 0, 255, 0.726);
+}
+.main__reguest a{
+  text-decoration: none;color: rgba(0, 0, 255, 0.726);
+  
+}
