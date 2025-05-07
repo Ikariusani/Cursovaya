@@ -1,25 +1,39 @@
 header{
     background-color: royalblue;
     text-align: center;
-    height: 100px;
+    height: 260px;
     padding-top: 15px;
+    margin-bottom: 20px;
 }
 .header__menu{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: cornflowerblue;
+    background-color: rgb(16, 51, 116);
+    border: 3px; padding: 9px; border-radius: 10px;
+    display: inline-block
 }
 .header__menu a{
     font-size: 12px;
     margin: 5px;
-    text-decoration: none;color: rgba(0, 0, 255, 0.726);
+    text-decoration: none;color: rgba(241, 241, 241, 0.726);
+    padding: 10px;
+    justify-content: space-between;
+    font-family: 'zxc';
     
 }
 .header__logo{
-    display: flex;
+  display: flex;
+  text-decoration: none;
+  color : rgba(241, 241, 241, 0.726);
+  
+  
 }
 .header__logo img{
-    width: 300px;
+    margin-top: 10px;
+    width: 240px;
     filter: drop-shadow(16px 16px 20px rgb(216, 202, 14));
+}
+header h1{
+    font-family: 'zxc';
 }

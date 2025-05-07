@@ -7,3 +7,11 @@ footer{
 footer p{
     margin: 0;
 }
+.footer__menu a{
+  text-decoration: none;color: rgb(26, 3, 235);
+  
+}
+.footer__menu img{
+  width: 40px;
+  filter: drop-shadow(5px 1px 10px rgb(224, 224, 221));
+}

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <header>
@@ -22,20 +23,52 @@
     </div>
     <div class="header__logo">
 
-        <img src="image/logo.png" >
-        <h1>Судебный Департамент г.о Лосино-Петровский</h1>
+        <img src="image/logo (1).png" >
+        <h1>Судебный Департамент г.о Лосино-Петровский <br> при верховом суде
+            
+        </h1>
+    </div>
+    <div id="time">
+     
     </div>
     
 </header>
 <main>
-main 
+<div class="main__info">
+  <div class="main__info__title">
+    <a href="">Новости</a>
+  </div>
+  <div class="main__info__newslist">
+    <p>новости 1</p>
+    <p>новости 2</p>
+    <P>новости 3</P>
+  </div>
+  
+</div>
+<div class="main__request">
+  <a href="">запрос</a>
+  <div class="main__url">
+    <p></p>
+  </div>
+</div>
 </main>
 <footer>
-<p>контактный номер:</p>
-<p>Email:</p>
-<p>Адрес:</p>
-<p>Telegramm</p>
-<p>Vk</p>
+<div class="footer__menu">
+  <p>Контактный номер: +7 (495) 575-66-96 </p>
+  <p>Email: <a href="https://sudrf.ru/?limitstart=&showall=">ГАС РФ Правосудие</a></p>
+  <p>Адрес: ул. Гоголя, 5, Лосино-Петровский</p>
+  <a href="https://t.me/s/cdvsrf"><img src="/image/pngaaa.com-1155994.png" alt=""></a>
+  <p> 
+  <a href="https://vk.com/mosoblsud"><img src="/image/vk.png" alt=""></a>
+  </p>
+</div>
+
 </footer>
 </body>
+<script>
+  let time_div = document.getElementById('time');
+  let time = new Date();
+
+  time_div.innerHTML = time.getDate()+ ' '+(time.getMonth()+1)+ ' '+ time.getFullYear();
+</script>
 </html>
